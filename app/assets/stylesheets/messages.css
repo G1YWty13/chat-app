@@ -1,0 +1,54 @@
+.wrapper{
+  display: flex;
+}
+
+.side{
+  background-color: #253141;
+  height: 100vh;
+  width: 300px;
+}
+
+.main{
+  background-color: #ffffff;
+  height: 100vh;
+  width: calc(100vw - 300px);
+}
+
+/* サイドバーについての記述ここから */
+
+.side_top{
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.side_main{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+/* サイドバーについての記述ここまで */
+
+
+/* メイン画面についての記述ここから */
+
+.main_top{
+  background-color: #FFFFFF;
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main_main{
+  background-color: #FAFAFA;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+}
+
+.main_bottom{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+}
+
+/* メイン画面についての記述ここまで */
