@@ -58,12 +58,13 @@
   overflow: scroll;
 }
 
-.room_list{
+.room-list{
   height: 76px;
   padding: 20px 20px 40px 20px;
+  text-decoration: none;
 }
 
-.room_list a{
+.room-name a{ 
   color: white;
   text-decoration: none;
 }
