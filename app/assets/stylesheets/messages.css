@@ -102,37 +102,43 @@
 .main_main{
   background-color: #FAFAFA;
   height: calc(100vh - 190px);
-}
-
-.messages{
   overflow: scroll;
   height: calc(100vh - 190px);
   padding: 46px 40px 0;
 }
 
+/* .messages{
+
+} */
+
 .message{
   padding-bottom: 40px;
 }
 
-.message_info{
+.upper-message{
   display: flex;
   margin: 10px 0;
 }
 
-.message_name{
+.message-user{
   margin-right: 10px;
   font-size: 16px;
   color: #434A54;
 }
 
-.message_time{
+.message_date{
   font-size: 12px;
   color: #999;
 }
 
-.message_text{
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
   font-size: 14px;
-  color: #434A54;
+  margin-bottom: 40px;
 }
 
 .main_bottom{
